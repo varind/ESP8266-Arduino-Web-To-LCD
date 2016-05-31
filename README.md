@@ -26,12 +26,7 @@ http://www.microtechnica.tv/support/manual/ESP8266_WiFi_Module_Quick_Start_Guide
      Chage the line:  #define _SS_MAX_RX_BUFF 64 // RX buffer size  
      To:              #define _SS_MAX_RX_BUFF 256 // RX buffer size  
      Then Command-S or File->Save  
-   ****************************************************************************************************  
 
-   A few extra commands that may come in handy:   
-   ESPserial.println("AT+CWLAP"); // List Available Access Points  
-   ESPserial.println("ATE0");  // Don't echo AT Command  
-   ESPserial.println("ATE1");  // Echo AT Command  
 
    LCD 1 VSS -> 200 ohm -> +5V  
    LCD 2 GND -> GND  
@@ -46,30 +41,10 @@ http://www.microtechnica.tv/support/manual/ESP8266_WiFi_Module_Quick_Start_Guide
    LCD 15 A (backlight) -> 200 ohm -> +5V  
    LCD 16 K (backlight) -> GND  
 
-        V G
-        S N V R R           D D D D
-        S D O S W E         4 5 6 7 A K
-     _______________________________________________
-    |O  o o o o o o o o o o o o o o o o           O |
-    | _____________________________________________ |
-    ||                                             ||
-    ||                                             ||
-    ||                                             ||
-    ||                                             ||
-    ||_____________________________________________||
-    |                                               |
-    |O                                            O |
-     -----------------------------------------------
-
    ESP01 TX -> Arduino digital pin 10  
    ESP01 RX -> 1k ohm -> Arduino digital pin 11  
    ESP01 RX -> 2k ohm -> GND  
    ESP01 CH_PD -> 10k ohm -> +3.3V (3.3V voltage regulator from +5V, NOT Arduino 3.3v)  
    ESP01 VCC -> +3.3v (3.3V voltage regulator from +5V, NOT Arduino 3.3v)  
    ESP01 GND -> GND  
-                _____________________  
-   TX    GND   |o o   ----      ____  |  
-   CH_PD GPIO2 |o o  |    |     ____| |  
-   RST   GPIO1 |o o  ------    |____  |  
-   VCC   RX    |o o |      |        | |  
-                ----------------------  
+
