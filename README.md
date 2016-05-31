@@ -1,23 +1,23 @@
 # Web-To-LCD
 Use Arduino & ESP8266 to display XML/RSS/HTML on an LCD
 
- Web to LCD by Ben Lipsey www.varind.com 2016. This code is public domain, enjoy!
-   Compiles with Arduino 1.6.7
-   With help in the form of code from:
-   Dave http://blog.huntgang.com/2015/01/20/arduino-esp8266-tutorial-web-server-monitor-example/
-   Abhinaba Basu https://blogs.msdn.microsoft.com/abhinaba/2016/01/23/esp8266-wifi-with-arduino-uno-and-nano/
-   Martyn Currey http://www.martyncurrey.com/arduino-to-esp8266-serial-commincation/
+Web to LCD by Ben Lipsey www.varind.com 2016. This code is public domain, enjoy!
+Compiles with Arduino 1.6.7
+With help in the form of code from:
+Dave http://blog.huntgang.com/2015/01/20/arduino-esp8266-tutorial-web-server-monitor-example/
+Abhinaba Basu https://blogs.msdn.microsoft.com/abhinaba/2016/01/23/esp8266-wifi-with-arduino-uno-and-nano/
+Martyn Currey http://www.martyncurrey.com/arduino-to-esp8266-serial-commincation/
 
-   ESP8266 Flashed with circuit from:
-   http://www.allaboutcircuits.com/projects/update-the-firmware-in-your-esp8266-wi-fi-module/
+ESP8266 Flashed with circuit from:
+http://www.allaboutcircuits.com/projects/update-the-firmware-in-your-esp8266-wi-fi-module/
 
-   with instructions and software (esp8266flasher.exe & v0.9.2.2 AT Firmware.bin) from:
-   http://www.xess.com/blog/esp8266-reflash/
+with instructions and software (esp8266flasher.exe & v0.9.2.2 AT Firmware.bin) from:
+http://www.xess.com/blog/esp8266-reflash/
 
-   ESP8266 Command Refrence:
-   https://cdn.sparkfun.com/assets/learn_tutorials/4/0/3/4A-ESP8266__AT_Instruction_Set__EN_v0.30.pdf
-   http://www.pridopia.co.uk/pi-doc/ESP8266ATCommandsSet.pdf
-   http://www.microtechnica.tv/support/manual/ESP8266_WiFi_Module_Quick_Start_Guide_v_1.0.4.pdf
+ESP8266 Command Refrence:
+https://cdn.sparkfun.com/assets/learn_tutorials/4/0/3/4A-ESP8266__AT_Instruction_Set__EN_v0.30.pdf
+http://www.pridopia.co.uk/pi-doc/ESP8266ATCommandsSet.pdf
+http://www.microtechnica.tv/support/manual/ESP8266_WiFi_Module_Quick_Start_Guide_v_1.0.4.pdf
 
    *******************   YOU MUST INCREASE YOUR SOFTWARE SERIAL RX BUFFER TO 256 **********************
      (On a mac, navigate to your applications folder then command-click on the Arduino app
