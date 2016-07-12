@@ -1,4 +1,5 @@
 /*
+*** THIS PROJECT IS NOW SUPERSEDED BY: https://github.com/varind/ESP8266-Web-To-LCD***
    Web to LCD by Ben Lipsey www.varind.com 2016. This code is public domain, enjoy!
    Compiles with Arduino 1.6.7
    With help in the form of code from:
