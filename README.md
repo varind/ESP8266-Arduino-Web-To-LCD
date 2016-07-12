@@ -1,4 +1,6 @@
 # Web-To-LCD
+*** THIS PROJECT IS NOW SUPERSEDED BY: https://github.com/varind/ESP8266-Web-To-LCD***
+
 Use Arduino & ESP8266 to display XML/RSS/HTML on an LCD
 Project website: http://www.variableindustries.com/web-to-lcd/
 
